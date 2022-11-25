@@ -118,7 +118,7 @@ def pregunta_04():
         stop_words = "english",
         token_pattern = r"\b\w\w+\b",
         binary = True,
-        max_df = 1,
+        max_df = 1.0,
         min_df = 5,
     )
 
